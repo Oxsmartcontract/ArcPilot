@@ -148,7 +148,7 @@ export default function AgentResult({ data }: { data: AgentResponse }) {
                 <div className="rounded-2xl border border-white/20 bg-white/30 backdrop-blur-xl p-4 inline-block px-6">
                     Developed by{" "}
                     <a
-                        href="https://github.com/rebwar"
+                        href="https://github.com/Oxsmartcontract"
                         target="_blank"
                         className="text-black font-medium underline"
                     >
