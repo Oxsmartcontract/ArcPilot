@@ -1,7 +1,7 @@
 🚀 ArcPilot
 
 <p align="center">
-  <img src="./Demo.png" alt="ArcPilot Demo" width="100%" />
+  <img src="./public/Demo.png" alt="ArcPilot Demo" width="100%" />
 </p>
 <p align="center">
   <strong>AI-powered settlement engine for cross-border stablecoin payments</strong>
