@@ -1,74 +1,197 @@
-# 🚀 ArcPilot
+🚀 ArcPilot
 
-**AI-powered settlement engine for cross-border stablecoin payments**
+<p align="center">
+  <img src="./Demo.png" alt="ArcPilot Demo" width="100%" />
+</p>
+<p align="center">
+  <strong>AI-powered settlement engine for cross-border stablecoin payments</strong>
+</p>
+<p align="center">
+Turn global payments into a real-time intelligent routing problem.
+</p>
 
-ArcPilot is a decision intelligence prototype that simulates cross-border payment routing using stablecoins. It analyzes multiple settlement paths, compares fees, risk, and execution time, and recommends the optimal route in real time.
+⸻
 
----
+⚡ What is ArcPilot?
 
-## 🧠 Problem
+ArcPilot is an AI-powered settlement intelligence layer that optimizes cross-border stablecoin transfers.
 
-Cross-border payments are:
-- Slow
-- Expensive
-- Opaque
-- Fragmented across liquidity rails
+Instead of executing transactions blindly, ArcPilot:
 
----
+* Simulates multiple settlement routes
+* Evaluates fees, execution speed, and risk
+* Selects the optimal payment path
+* Executes settlement using Arc AppKit
 
-## ⚡ Solution
+The result is a smarter, faster, and more transparent payment experience.
 
-ArcPilot transforms payments into an **intelligent routing problem**:
+⸻
 
-- Simulates multiple settlement routes
-- Evaluates fee, risk, and execution time
-- Selects optimal path in real-time
-- Executes via Arc AppKit
+🧠 The Problem
 
----
+Cross-border payments today are often:
 
-## 🏗 Architecture
+* ⏳ Slow
+* 💸 Expensive
+* 🌐 Opaque
+* 🔀 Fragmented across multiple payment rails
 
-- Next.js (UI layer)
-- Arc AppKit (execution layer)
-- Viem Adapter (chain abstraction)
-- AI routing simulation engine
+Users and businesses typically don’t know which route provides the best execution outcome.
 
----
+⸻
 
-## 🔄 Flow
+🚀 The Solution
 
-User Intent → Arc Agent → Route Simulation → AppKit.send() → Execution Result
+ArcPilot transforms payments into an intelligent routing problem.
 
----
+Given a payment intent such as:
 
-## 🎯 Features
+“Send 5,000 USDC to Brazil”
 
-- Real-time route optimization
-- Fee comparison visualization
-- Risk-aware settlement engine
-- Glassmorphism + motion UI
-- Execution timeline simulation
+ArcPilot automatically:
 
----
+1. Discovers possible settlement routes
+2. Simulates execution outcomes
+3. Compares fees and timing
+4. Assesses risk levels
+5. Recommends the best route
+6. Executes through Arc infrastructure
 
-## 🧪 Demo Mode
+⸻
 
-ArcPilot supports:
-- Live execution via AppKit
-- Simulation fallback mode (for testing UX flow)
+✨ Features
 
----
+* 🧠 AI-powered route simulation
+* ⚡ Real-time settlement optimization
+* 💸 Fee comparison engine
+* 🛡️ Risk-aware recommendations
+* 🌉 Arc AppKit integration
+* 🔗 Viem Adapter integration
+* 🎞️ Motion-enhanced user experience
+* 🧊 Glassmorphism UI
 
-## 🧑‍💻 Built With
+⸻
 
-- @circle-fin/app-kit
-- @circle-fin/adapter-viem-v2
-- viem
-- Next.js
+🏗 Architecture
 
----
+User Intent
+    ↓
+ArcPilot Agent
+    ↓
+AI Route Simulation
+    ↓
+Arc AppKit
+    ↓
+Viem Adapter
+    ↓
+Settlement Execution
+    ↓
+Execution Result
 
-## ❤️ Author
+⸻
 
-Built by [Rebwar Hosein Poori](https://github.com/rebwar) with ❤️ for Arc Developer Challenge
+🔄 Execution Flow
+
+User Input
+↓
+Analyze Payment Intent
+↓
+Simulate Multiple Routes
+↓
+Evaluate Fee / Speed / Risk
+↓
+Select Optimal Route
+↓
+Execute via Arc AppKit
+↓
+Return Settlement Result
+
+⸻
+
+🧰 Tech Stack
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Arc AppKit
+* @circle-fin/adapter-viem-v2
+* viem
+
+⸻
+
+🚀 Arc Integration
+
+ArcPilot leverages Arc infrastructure as its execution layer.
+
+Arc capabilities used:
+
+* Arc AppKit unified send flow
+* Stablecoin settlement execution
+* BridgeStep transaction abstraction
+* Viem Adapter integration
+* Adapter capabilities configuration
+* Chain abstraction for EVM execution
+
+⸻
+
+💡 Why Arc?
+
+Arc simplifies complex settlement flows into a unified developer experience.
+
+Using Arc AppKit allowed ArcPilot to focus on settlement intelligence and optimization rather than low-level execution details.
+
+⸻
+
+🧪 Demo Mode
+
+ArcPilot supports both:
+
+* Live execution through Arc AppKit
+* Simulation fallback mode for demos and testing
+
+⸻
+
+🎥 Demo
+
+The demo showcases:
+
+* Cross-border payment intent input
+* Real-time route simulation
+* Settlement optimization
+* Route recommendation
+* Arc-powered execution flow
+
+⸻
+
+🎯 Example Use Case
+
+Input:
+
+Send 5,000 USDC to Brazil
+
+ArcPilot will:
+
+* Compare settlement options
+* Identify the cheapest route
+* Estimate execution time
+* Evaluate risk exposure
+* Recommend the optimal path
+* Execute using Arc infrastructure
+
+⸻
+
+🏆 Built for
+
+Arc Developer Challenge
+
+ArcPilot demonstrates how AI agents can transform payments into a real-time optimization problem powered by Arc.
+
+⸻
+
+❤️ Author
+
+Built by Rebwar Hosein Poori with ❤️
+
+GitHub:
+https://github.com/rebwar
